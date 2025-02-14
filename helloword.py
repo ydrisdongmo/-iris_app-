@@ -4,3 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 st.write("hello word!")
 print(df.describe())
+# Visualisation de la répartition des classes
+sns.countplot(x='species', data=df)
+plt.title('Distribution des espèces d\'iris')
+plt.show()
