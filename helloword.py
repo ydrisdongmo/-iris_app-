@@ -1,7 +1,9 @@
 import streamlit as st 
 import pandas as pd
+imp
 import seaborn as sns
 import matplotlib.pyplot as plt
+df = sns.load_dataset('iris')
 st.title("SPREMIERE TP DE IA ")
 st.write("hello word!")
 print(df.describe())
