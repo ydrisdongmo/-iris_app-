@@ -14,7 +14,9 @@ st.write("Hello world!")
 st.write(df.describe())
 
 # Visualisation de la répartition des classes
-plt.figure(figsize=(10, 6))
-sns.countplot(x='species', data=df)  # Correction du nom de la colonne
-plt.title('Distribution des espèces d\'iris')
-st.pyplot()  # Affichage du graphique avec Streamlit
+fig, ax = plt.subplots(figsize=(10, 6))  # Créer une figure et un axe
+sns.countplot(x='species', data=df, ax=ax)  # Tracer sur l'axe spécifié
+ax.set_title('Distribution des espèces d\'iris')  # Définir le titre
+
+# Affichage du graphique avec Streamlit
+st.pyplot(fig)
