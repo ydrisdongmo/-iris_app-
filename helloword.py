@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 df = sns.load_dataset('iris')
 
 # Titre de l'application
-st.title("SPREMIERE TP DE IA")
+st.title("PREMIER TP SUR L'INTELLIGENCE ARTIFICIELLE")
 st.write("Hello world!")
 
 # Afficher les statistiques descriptives
