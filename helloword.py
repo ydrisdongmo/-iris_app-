@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+st.sidebar.title("mon menu ")
+st.sidebar.button("click")
+st.sidebar.radio(choisie ton genre ["homme","femme"])
 # Charger le jeu de données Iris
 df = sns.load_dataset('iris')
 
