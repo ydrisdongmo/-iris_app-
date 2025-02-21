@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-df = pd.read_csv('MathE dataset(4).csv', delimiter=";" encodage"c1252")
+df = pd.read_csv('MathE dataset(4).csv', delimiter=";" encodage"cp1252")
 # Statistiques descriptives pour comprendre la distribution des 
 # caractéristiques
 print(df.head())
