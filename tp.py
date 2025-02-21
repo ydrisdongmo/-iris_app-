@@ -3,7 +3,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-df = pd.read_csv('iris.csv', delimiter=";")
+df = pd.read_csv('MathE.csv', delimiter=";")
 # Statistiques descriptives pour comprendre la distribution des 
 # caractéristiques
 print(df.head())
