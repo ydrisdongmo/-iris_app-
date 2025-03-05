@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np  # Importer NumPy
 
-df = pd.read_csv('MathE dataset(4).csv', delimiter=";" encoding='cp1252')
+df = pd.read_csv('MathE dataset(4).csv',encoding='cp1252')
 # Afficher les premières lignes du jeu de données
 print(df.head())
 
