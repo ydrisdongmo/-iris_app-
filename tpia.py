@@ -3,7 +3,6 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.model_selection 
 import numpy as np  # Importer NumPy
 
 df = pd.read_csv('MathE dataset(4).csv', delimiter=";")
